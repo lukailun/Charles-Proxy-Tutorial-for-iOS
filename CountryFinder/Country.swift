@@ -44,6 +44,6 @@ struct Country: Codable {
     case capital
     case region
     case population
-    case code = "alpha3Code"
+    case code = "alpha2Code"
   }
 }
